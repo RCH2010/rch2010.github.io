@@ -1,0 +1,37 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>opooc</title>
+
+</head>
+<style >
+div{
+    width: 800px;
+    height: 30px;
+    border:1px
+    solid #ef3333;
+    color: red;
+}
+</style>
+<body>
+<div id = "test"></div>
+<script >
+    var text = "欢迎来到我的主页！RenChenghan - by PC Group";
+    var num = text.length;
+
+    var i =0;
+    function show() {
+        var shower = text.substr(0,i);
+        document.getElementById("test").innerHTML = shower;
+        i++;
+        if(i + 1 >= num){
+            clearInterval("done");
+        }
+    }
+    var done=setInterval("show()",50);
+
+
+</script>
+</body>
+
+</html>
