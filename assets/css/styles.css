@@ -223,7 +223,7 @@ img {
 /*BUTTONS*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: #FF7F27;
   color: #fff;
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
